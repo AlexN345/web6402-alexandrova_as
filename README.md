@@ -11,3 +11,9 @@
 > — **Карл Маркс** «К критике политической экономии» (1859)
 
 <img width="619" height="459" alt="image" src="https://github.com/user-attachments/assets/82086a21-4c5a-489e-97a2-2e75b0a4b8ac" />
+
+
+<img width="333" height="372" alt="image" src="https://github.com/user-attachments/assets/f3f0e8b3-b19d-4d11-94e3-ce80567ed07c" />
+
+<img width="1302" height="500" alt="image" src="https://github.com/user-attachments/assets/f0b3864d-7357-4430-9977-fe0ca37d882d" />
+
