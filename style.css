@@ -1,0 +1,214 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #0a1929;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #102a43;
+    padding: 1rem;
+    border-bottom: 2px solid #1e3a5c;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #64b5f6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #90caf9;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1, h2, h3 {
+    color: #bb86fc;
+}
+
+.hero {
+    text-align: center;
+    padding: 42px 0;
+    background: linear-gradient(135deg, #1e3a5c, #0a1929);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.scroll-down {
+
+    color: #bb86fc;
+    font-size: 3rem;
+    text-decoration: none;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.why-us-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    gap: 1.5rem;
+}
+
+.advantage-card {
+    background-color: #1e3a5c;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+    border-top: 4px solid #bb86fc;
+    transition: transform 0.3s ease;
+}
+
+.advantage-card:hover {
+    transform: translateY(-5px);
+}
+
+.advantage-card h3 {
+    color: #4fc3f7;
+    margin: 0 0 0.5rem 0;
+}
+
+.advantage-card p {
+    margin: 0;
+}
+
+.table-title {
+    text-align: center;
+    margin: 5rem 0 1rem 0;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #bb86fc;
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
+
+.subjects-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background-color: #1e3a5c;
+}
+
+.subjects-table th {
+    background-color: #bb86fc;
+    color: #0a1929;
+    padding: 12px;
+    text-align: center;
+}
+
+.subjects-table td {
+    padding: 10px;
+    border: 1px solid #2d4a6d;
+}
+
+.subjects-table td:nth-child(1) {
+    text-align: left;
+    font-weight: bold;
+}
+
+.subjects-table td:nth-child(2) {
+    text-align: center;
+}
+
+.subjects-table td:nth-child(3) {
+    text-align: right;
+    color: #4caf50;
+}
+
+.subjects-table td:nth-child(4) {
+    text-align: center;
+}
+
+.teacher-card {
+    background-color: #1e3a5c;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    border-left: 4px solid #bb86fc;
+}
+
+.teacher-card img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 1.5rem;
+    border: 3px solid #64b5f6;
+}
+
+.cta-button {
+    background-color: #bb86fc;
+    color: #0a1929;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #9d67d4;
+}
+
+.contact-frame {
+    background-color: #1e3a5c;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    border: 3px solid #bb86fc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0 4px 15px rgba(187, 134, 252, 0.2);
+}
+
+.contact-info p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
